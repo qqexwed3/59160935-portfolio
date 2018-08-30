@@ -1,239 +1,319 @@
 /* So padding and border no longer increase width. */
 * {
-  box-sizing: border-box;
-}
-
-/* Some default document settings. */
-body {
-	color: #777777;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	line-height: 30px;
-	text-align: left;
-	/* Set width to 1200 instead of 960 for better layout (in my humble opinion). */
-	width: 1200px;
-}
-
-header	{
-	float: left;
-	background-color: #4aaaa5;
-	border-bottom: none;
-	color: #ffffff;
-	height: 100%;
-	width: 270px;
-	margin-left: 125px;
-	margin-bottom: 0;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	text-align: center;
-	font-size: 1.5em;
-	font-weight: bold;
-	vertical-align: middle;
-	padding-top: 15px;
-}
-
-h2,
-h3	{
-	color: #4aaaa5;
-	border-bottom:	3px solid #dddddd;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	margin-top: 1px;
-	padding-bottom: 3px;
-}
-
-nav	{
-	width: 270px;
-	float: right;
-	text-align: center;
-	margin-right: 125px;
-}
-
-ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-li {
-	float: left;
-	width: 33%;
-	padding: 10px;
-}
-
-li.border {
-	border-right: 1px solid #dddddd;
-	padding: 10px;
-}
-
-a {
-	color: #777777;
-	text-decoration: none;
-}
-
-/* Nav links turn teal on hover. */
-a:hover {
-  color: #4aaaa5;
-}
-
-.icon {
-	width: 60px;
-	height: auto;
-	color: none;
-	border-right: none;
-}
-
-/* Rotates social icon in contacts on hover. */
-.icon:hover {
-	transform: rotate(-10deg);
-	-ms-transform: rotate(-10deg);
-	-webkit-transform: rotate(-10deg);
-	-moz-transform: rotate(-10deg);
-	-o-transform: rotate(-10deg);
-}
-
-section	{
-	background-color: #ffffff;
-	float: left;
-	color: #777777;
-	border: 2px solid #dddddd;
-}
-
-input,
-textarea {
-	width: 100%;
-	padding: 10px 20px 10px 10px;
-    margin: 8px 0;
-    border-color: #dddddd;
-    border-style: solid;
-    border-width: thin;
-}
-
-/* Need to use a pseudoclass to control placeholder. */
-input,
-textarea,
-input::-webkit-input-placeholder {
-    font-size: 16px;
-}
-
-footer {
-	clear: both;
-	margin: 0 auto;
-	vertical-align: middle;
-	padding: 18px;
-	height: 70px;
-	background-color: #666666;
-	width: 100%;
-	border-bottom: none;
-	color: #777777;
-	text-align: center;
-}
-
-.header-container {
-	border-bottom: 2px solid #cccccc;
-	background-color: #ffffff;
-	height: 60px;
-}
-
-.main-container {
-	clear: both;
-	overflow: auto;
-	margin: 0 auto;
-	background-image: url("../images/background.png");
-	height: 600px;
-	width: 100%;
-	border-bottom: 5px solid #4aaaa5;
-}
-
-.box {
-	display: inline-block;
-	width: 250px;
-	height: 100px;
-	margin: 20px;
-}
-
-/* Rotates project in portfolio on hover. */
-.box:hover {
-	transform: rotate(-10deg);
-	-ms-transform: rotate(-10deg);
-	-webkit-transform: rotate(-10deg);
-	-moz-transform: rotate(-10deg);
-	-o-transform: rotate(-10deg);
-}
-
-.project {
+	box-sizing: border-box;
+  }
+  
+  /* Some default document settings. */
+  body {
+	  color: #000000;
+	  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	  line-height: 30px;
+	  text-align: left;
+	  /* Set width to 1200 instead of 960 for better layout (in my humble opinion). */
+		  
+  }
+  
+  header	{
+	  float: left;
+	  border-bottom: none;
+	  color: #ff7878;
+	  margin-left: 1.3cm;
+	  height: 100%;
+	  width: 270px;
+	  font-family: 'Georgia', Times, Times New Roman, serif;
+	  text-align: center;
+	  font-size: 1.5em;
+	  font-weight: bold;
+	  vertical-align: middle;
+	  padding-top: 15px; 
+  }
+  
+  h2,
+  h3	{
+	  color: #4aaaa5;
+	  border-bottom:	3px solid #3b3b3b;
+	  font-family: 'Times New Roman', Times, serif;
+	  margin-top: 5px;
+	 
+	  padding-bottom: 1px;
+  }
+  h4{
+	  margin-top: -5px;
+	  margin-bottom: -2px;
+  }
+  ol{
+	  margin-bottom: -6px;
+  }
+  h5{
+	  margin-bottom: 0cm;
+  }
+  nav	{
+	  width: 270px;
+	  float: right;
+	  text-align: center;
+	  margin-right: 125px;
+	  margin-top: 1.2cm;
+  }
+  
+  ul {
+	  list-style: none;
+	  margin: 0;
+	  padding: 0;
+  }
+  
+  li {
+	  float: left;
+	  width: 33%;
+	  padding: 10px;
+  }
+  
+  li.border {
+	  border-right: 1px solid #dddddd;
+  }
+  
+  a {
+	  color: #777777;
+	  text-decoration: none;
+  }
+  
+  /* Nav links turn teal on hover. */
+  a:hover {
+	color: #4a50aa;
+  }
+  
+  .icon {
+	  width: 60px;
+	  height: auto;
+	  color: none;
+	  border-right: none;
+  }
+  
+  /* Rotates social icon in contacts on hover. */
+  .icon:hover {
+	  transform: rotate(-10deg);
+	  -ms-transform: rotate(-10deg);
+	  -webkit-transform: rotate(-10deg);
+	  -moz-transform: rotate(-10deg);
+	  -o-transform: rotate(-10deg);
+  }
+  
+  section	{
+	  background-color: #ffffff;
+	  float: left;
+	  color: #777777;
+	  border: 5px solid #3838388a;
+  }
+  
+  input,
+  textarea {
+	  width: 100%;
+	  padding: 10px 20px 10px 10px;
+	  margin: 8px 0;
+	  border-color: #dddddd;
+	  border-style: solid;
+	  border-width: thin;
+  }
+  
+  /* Need to use a pseudoclass to control placeholder. */
+  input,
+  textarea,
+  input::-webkit-input-placeholder {
+	  font-size: 16px;
+  }
+  
+  footer {
+	  clear: both;
+	  margin: 0 auto;
+	  vertical-align: middle;
+	  padding: 18px;
+	  height: 70px;
+	  background-color: #666666;
+	  width: 1200px;
+	  border-bottom: none;
+	  color: #777777;
+	  text-align: center;
+  }
+  
+  .header-container {
+	  border-bottom: 2px solid #cccccc;
+	  
+  }
+  
+  .main-container {
+	  clear: both;
+	  overflow: auto;
+	  margin: 0 auto;
+	  background-image: url(../images/BG.jpg);
+	  height: 800px;
+	  width: 1200px;
+	  border-bottom: 5px solid #ff0000;
+  }
+  
+  .box {
+	  display: inline-block;
+	  width: 200px;
+	  height: 200px;
+	  margin: 5px;
+  }
+  
+  /* Rotates project in portfolio on hover. */
+  .box:hover {
+	  transform: rotate(-10deg);
+	  -ms-transform: rotate(-10deg);
+	  -webkit-transform: rotate(-10deg);
+	  -moz-transform: rotate(-10deg);
+	  -o-transform: rotate(-10deg);
+  }
+  
+  .project {
+	  float: left;
+	  position: relative;
+	  top:	-10px;
+	  width: 100%;
+  }
+  
+  .project-title {
+	  float: left;
+	  position: relative;
+	  top: -50px;
+	  width: 100%;
+	  height: 30px;
+	  background-color: #4aaaa5;
+	  color: #ffffff;
+	  text-align: center;
+  }
+.project-overline{
 	float: left;
 	position: relative;
-	top:	-10px;
-	width: 100%;
-}
-
-.project-title {
-	float: left;
-	position: relative;
-	top: -50px;
+	top: -10px;
 	width: 100%;
 	height: 30px;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	text-align: center;
-}
+	text-decoration: line-through solid black;
+  }
+  
+  .button {
+	  background-color: #4aaaa5;
+	  color: #ffffff;
+	  width: 100px;
+	  height: 40px;
+	  font-size: 16px;
+	  border: none;
+	  position: relative;
+	  top: -8px;
+  }
+  
+  /* Button turns dark on hover. */
+  .button:hover {
+	  background-color: #374865;
+  }
+  
+  #social-links,
+  #myFriend {
+	  float: right;
+	  padding: 10px;
+	  width: 270px;
+	  top: 30px;
+	  text-align: center;
+	  margin-right: 125px;
+	  margin-top: 30px
+  }
+  
+  #main-bio,
+  #contact-form,
+  #skill,
+  #project-portfolio {
+	  position: relative;
+	  text-align: left;
+	  width: 650px;
+	  top: 20px;
+	  margin-left: 125px;
+	  margin-bottom: 50px;
+  }
+  
+  #main-bio {
+	  height: auto;
+	  padding: 20px;
+  }
+  
+  div.bio-image div {
+	  margin: 10px;
+	  width: 30%;
+	  float: left;	
+  }
+  div.bio-image div img{
+	  width: 100%;
+  }
+  
+  #contact-form {
+	  padding: 20px;
+	  height: 500px;
+  }
+  
+  #project-portfolio {
+	  
+	  height: 500px;
+  }
+  #color-faculty{
+	  color: #605f8b
+  }
+  
+  div.bio-skill div {
+	  margin: 10px;
+	  width: 30%;
+	  float: left;	
+  }
+  #main-skill{
+	  position: relative;
+	  text-align: left;
+	  width: 650px;
+	  top: 30px;
+	  margin-left: 125px;
+	  margin-bottom: 50px;
+  }
+  #main-skill{
+	  position: relative;
+	  text-align: left;
+	  width: 650px;
+	  top: 10px;
+	  margin-left: 125px;
+	  margin-bottom: 50px;
+	  padding: 20px;
+  }
+  
+  
+  #about{
+	  margin-bottom: 10cm;
+  }
+  p{
+	  font-family: Arial, Helvetica, sans-serif
+  }
 
-.button {
-	background-color: #4aaaa5;
-	color: #ffffff;
-	width: 100px;
-	height: 40px;
-	font-size: 16px;
-	border: none;
-	position: relative;
-	top: -8px;
-}
-
-/* Button turns dark on hover. */
-.button:hover {
-	background-color: #374865;
-}
-
-#social-links,
-#myFriend {
-	float: right;
-	padding: 10px;
-	width: 270px;
-	top: 30px;
-	text-align: center;
-	margin-right: 125px;
-	margin-top: 30px
-}
-
-#main-bio,
-#contact-form,
-#skill,
-#project-portfolio {
-	position: relative;
-	text-align: left;
-	width: 650px;
-	top: 30px;
-	margin-left: 125px;
-	margin-bottom: 50px;
-}
-
-#main-bio {
-	height: auto;
-	padding: 20px;
-}
-
-#bio-image {
-	clear: both;
+  h6{
 	float: left;
-	margin-right: 20px;
-	width: 200px;
-	height: 200px;
-}
-
-#contact-form {
-	padding: 20px;
-	height: 500px;
-}
-
-#project-portfolio {
-	padding: 15px;
-	height: 500px;
-}
+	border-bottom: none;
+	color: #000000ab;
+	margin-left: 1.6cm;
+	margin-bottom: -20px;
+	margin-top: 35px;	
+	height: 100%;
+	width: 400px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	vertical-align: middle;
+	padding-top: 15px; 
+  }
+  h7{
+	
+		color: #4aaaa5;
+		border-bottom:	3px solid #3b3b3b;
+		font-family: 'Times New Roman', Times, serif;
+		margin-top: 5px;
+		margin-left: 20px;
+		padding-bottom: 1px;
+	
+  }
